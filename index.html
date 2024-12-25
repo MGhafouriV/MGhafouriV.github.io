@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mani's Blog</title>
+    <style>
+      h1{ font-size: 3em;}
+      h2{ font-size: 2.5em;}
+      h3{ font-size: 1.8em;}
+      p { font-size: 1.5em;}
+      li { font-size: 1.3em;}
+
+        body {
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        a {
+            color: #1E90FF; /* Blue color for links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: square;
+        }
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+        }
+        .flex-row {
+         display: flex;
+         justify-content: space-between;
+        }
+        #picture {
+         border-radius: 50%;
+        }
+        h2 {
+         margin-bottom: 1rem;
+        }
+        section {
+         min-height: 100vh;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+        }
+        #error {
+         display: none;
+        }
+        @media (max-width: 800px) {
+         .container {
+            display: none;
+         }
+         #error {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+         }
+
+        }
+    </style>
+</head>
+<body>
+   <div id="error">
+      <div>
+         <p>Open on a Larger Screen</p>
+      </div>
+   </div>
+    <div class="container">
+       <section>
+          <h1>Welcome to My Blog </h1>
+         <div class="flex-row">
+            <div>
+               <p>👋 Hi, I’m Mani!</p>
+               <p>👨‍💻 Web Developer and Designer</p>
+               <p>👶 Born in Tehran, September 6 2006</p>
+               <p>🏠 Currently live in Vaighan, East Azerbaijan, Iran </p>
+            </div>
+            <div>
+               <img src="./photos/mypicture.jpeg" id="picture" width="300">
+            </div>
+         </div>
+            
+       </section>
+         <section>
+            <h2 style="text-align: center; margin-bottom: 2em;">My Programming Skills</h2>
+               <div class="flex-row">
+                  <div><h3>Programming Languages:</h3>
+                     <ul>
+                        <li>
+                           JavaScript
+                        </li>
+                        <li>
+                           Java
+                        </li>
+                        <li>
+                           PHP
+                        </li>
+                        <li>
+                           C
+                        </li>
+                        <li>
+                           HTML & CSS
+                        </li>
+                     </ul>
+                  </div>
+                  <div><h3>Frameworks:</h3>
+                     <ul>
+                        <li>
+                           Laravel
+                        </li>
+                        <li>
+                           Nextjs
+                        </li>
+                        <li>
+                           Astro
+                        </li>
+                        <li>
+                           Qwik
+                        </li>
+                     </ul>
+                  </div>
+                  <div><h3>Other:</h3>
+                     <ul>
+                        <li>
+                           React
+                        </li>
+                        <li>
+                           APIs
+                        </li>
+                        <li>
+                           Pusher
+                        </li>
+                        <li>
+                           tailwind
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+         </section>
+         <section>
+            <h2>My Projects</h2>
+               <div><strong style="font-size: 1.5em; margin-bottom: 0.5em; display: block;">1- E-commerce for Forever Living Products:</strong>
+                  <ul>
+                     <li>
+                        Fast loading pages
+                     </li>
+                     <li>
+                        Seamless user experience
+                     </li>
+                     <li>
+                        Fast product searching
+                     </li>
+                     <li>
+                        Simple routing system for different users (Administrator, Support, Customer)
+                     </li>
+                     <li>
+                        For more information visit <a href="/projects/foreverliving.html" style="font-weight: bold;">here</a>
+                     </li>
+                  </ul>
+               </div>
+         </section>
+         <section>
+            <h2 style="text-align: center;">Future Plan</h2>
+        <p>
+         I plan to innovate within the world of e-commerce by creating an entirely new shopping experience. I envision a platform that not only offers intuitive and seamless interactions but also redefines how users connect with products and brands. This will be a project where technology and creativity come together to enhance the way people shop and experience digital commerce.
+        </p>
+         </section>
+         <section>
+            <h2 style="text-align: center; margin-bottom: 1.5em;">Feel Free to Reach Out</h2>
+            <div class="flex-row">
+               <div>
+                  <p>Email: <a href="mailto:manighafouri85@gmail.com">manighafouri85@gmail.com</a></p>
+               </div>
+               <div>
+                  <p>Telegram: <a href="https://t.me/manighafouri">@manighafouri</a></p>
+               </div>
+            </div>
+         </section>
+    </div>
+</body>
+</html>

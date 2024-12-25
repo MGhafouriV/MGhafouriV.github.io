@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Forever Living E-commerce - Mani</title>
+   <style>
+      h1{ font-size: 3em;}
+      h2{ font-size: 2.5em;}
+      h3{ font-size: 1.8em;}
+      p { font-size: 1.5em;}
+      li { font-size: 1.3em;}
+
+        body {
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        a {
+            color: #1E90FF; /* Blue color for links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        section {
+         min-height: 100vh;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+        }
+        .flex-row {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+        }
+        .text-center {
+         text-align: center;
+        }
+        .gap {
+         gap: 1em;
+        }
+        .mb{
+         margin-bottom: 1em;
+        }
+        .rounded {
+         border-radius: 1em;
+        }
+        #error {
+         display: none;
+        }
+        @media (max-width: 800px) {
+         .container {
+            display: none;
+         }
+         #error {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+         }
+
+        }
+   </style>
+</head>
+<body>
+   <div class="container">
+      <section>
+         <div class="flex-row">
+            <h1>Forever Living E-commerce</h1>
+            <img src="../photos/foreverliving/logo2.png" alt="logo" width="250px">
+         </div>
+      </section>
+      <section>
+         <h2 class="text-center">Beautiful Page Sections</h2>
+         <div class="flex-row gap mb">
+            <img src="../photos/foreverliving/hero.jpeg" width="49%" class="rounded">
+            <img src="../photos/foreverliving/productshow.jpeg" width="49%" class="rounded">
+         </div>
+         <div class="flex-row gap">
+            <img src="../photos/foreverliving/boxes.jpeg" width="49%" class="rounded">
+            <img src="../photos/foreverliving/product.jpeg" width="49%" class="rounded">
+         </div>
+      </section>
+      <section>
+         <h2 class="text-center">Easy and Fast Product Searching</h2>
+         <video width="90%" class="rounded" style="margin: 0 auto;" autoplay loop muted>
+            <source src="../photos/foreverliving/search.mp4" >
+         </video>
+      </section>
+      <section>
+         <h2 class="text-center">Lazy Loading</h2>
+         <p class="text-center">The heavy content will load only when you scroll to it.</p>
+         <video width="90%" class="rounded" style="margin: 0 auto;" autoplay loop muted>
+            <source src="../photos/foreverliving/reveiws.mp4" >
+         </video>
+      </section>
+      <section>
+         <h2 class="text-center">Simple Routing</h2>
+         <p class="text-center">There is one URL for every user, but the content differs for each user.</p>
+         <p class="text-center" style="text-decoration: line-through;">http://site.com/admin/dashboard</p>
+         <div class="flex-row gap mb">
+            <div width="49%">
+               <p class="text-center"><span style="text-decoration: underline;">http://site.com/dashboard</span> for <b>Admin</b></p>
+               <img src="../photos/foreverliving/admindash.jpeg" width="100%" class="rounded">
+            </div>
+            <div width="49%">
+               <p class="text-center"><span style="text-decoration: underline;">http://site.com/dashboard</span> for <b>Customer</b></p>
+               <img src="../photos/foreverliving/customerdash.jpeg" width="100%" class="rounded">
+            </div>
+         </div>
+      </section>
+      <section>
+         <h2>The project is still in progress; please wait for more updates.</h2>
+      </section>
+      <section>
+         <div class="flex-row">
+            <div>
+               <h3>Languages</h3>
+               <ul>
+                  <li>JavaScript</li>
+                  <li>PHP</li>
+                  <li>HTML & CSS</li>
+               </ul>
+            </div>
+            <div>
+               <h3>Frameworks & Tools</h3>
+               <ul>
+                  <li>Laravel</li>
+                  <li>Astro</li>
+                  <li>Qwik</li>
+                  <li>Tailwind</li>
+               </ul>
+            </div>
+            <div>
+               <h3>Next Step</h3>
+               <ul>
+                  <li>WebSocket API</li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+               </ul>
+            </div>
+         </div>
+      </section>
+      <div class="text-center mb"><a href="/" style="font-size: large;">@manighafouri</a></div>
+   </div>
+</body>
+</html>
